@@ -1,0 +1,73 @@
+.d-none {
+    display: none;
+}
+.badge {
+    color: #fff;
+    font-size: 1.1em;
+    font-weight: 800;
+    background-color: #00ff00;
+    border-radius: 5px;
+    box-decoration-break: clone;
+    display: inline;
+    position: relative;
+    line-height: 1.6;
+}
+.Pro-progress-Pixabin {
+    background-color: grey;
+    position: relative;
+    height: 36px;
+    display: block;
+    width: 100%;
+    border-radius: 20px;
+    margin: 0.5rem 0 1rem;
+    overflow: hidden;
+}
+.Pro-progress-Pixabin .Pixabin-Pro-progress-Pixabin-text-RX {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+.Pixabin-Pro-progress-Pixabin-status-RX {
+    height: 100%;
+    background-color: #00ff00;
+    animation: 21s ease-out Pixabin-Pro-progress-Pixabin-status-RX;
+}
+@-webkit-keyframes Pixabin-Pro-progress-Pixabin-status-RX {
+    from {
+        width: 0%;
+    }
+    to {
+        width: 100%;
+    }
+}
+.truncate {
+    display: block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 0.8125em ;
+    color: #fff;
+}
+#Pixabindownloadredirect-tab,
+#pixabin-Pixabindownloadredirect-loading-RX,
+.Pixabindownloadredirect {
+    margin-top: 10px;
+}
+#Pixabindownloadredirect,
+#pixabin-Pixabindownloadredirect-loading-RX {
+    height: 50px;
+}
+#Pixabindownloadredirect {
+    animation-name: show;
+    animation-duration: 2s;
+    animation-timing-function: linear;
+}
+@keyframes show {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 3;
+    }
+}
